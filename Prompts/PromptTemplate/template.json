@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "days",
+        "destination",
+        "season"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are a holiday planner.\nPlan and summarize a trip and itenary for titled place : {destination}.\nTraveling in the season of {season} for the given days {days}.\nIf certain information is not available , respond with: \"Insufficient\ninformation available\" instead of guessing.\nEnsure the summary is clear, accurate, and aligned with the provided style and\nlength.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
